@@ -23,6 +23,7 @@ export default function Home() {
         <span className="text-foreground">
           Tema escolhido: {theme === "light" ? "Light" : "Dark"}
         </span>
+        <span className="text-foreground">Desenvolvido por Junior Cintra</span>
       </div>
     </main>
   );
