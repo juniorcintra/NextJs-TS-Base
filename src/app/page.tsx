@@ -1,6 +1,5 @@
 "use client";
 
-import Button from "@/components/Button";
 import SwitcherTheme from "@/components/SwitcherTheme";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
@@ -24,7 +23,9 @@ export default function Home() {
         <span className="text-foreground">
           Tema escolhido: {theme === "light" ? "Light" : "Dark"}
         </span>
-        <Button />
+        <span className="text-foreground">
+          Versão: {process.env.NEXT_PUBLIC_APP_VERSION}
+        </span>
         <span className="text-foreground">Desenvolvido por Junior Cintra</span>
       </div>
     </main>
