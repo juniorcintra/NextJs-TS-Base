@@ -21,7 +21,7 @@ export default function Home() {
         <span className="text-foreground">Escolha um tema: </span>
         <SwitcherTheme />
         <span className="text-foreground">
-          Tema escolhido: {theme === "light" ? "Light" : "Dark"}
+          Tema escolhido 2: {theme === "light" ? "Light" : "Dark"}
         </span>
         <span className="text-foreground">Desenvolvido por Junior Cintra</span>
       </div>
