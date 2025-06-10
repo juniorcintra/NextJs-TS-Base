@@ -10,7 +10,7 @@ export default function Home() {
 
   const [mounted, setMounted] = useState(false);
 
-  console.log("Next TS Base ----> Version: ", env.NEXT_PUBLIC_APP_VERSION);
+  console.log("Next TS Base ----> Versão: ", env.NEXT_PUBLIC_APP_VERSION);
 
   useEffect(() => {
     setMounted(true);
