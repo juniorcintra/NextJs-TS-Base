@@ -1,12 +1,15 @@
 {
   "name": "nextjs-ts-base",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "patch": "npm version patch",
+    "end-sprint": "npm version minor",
+    "release": "npm version major"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",
